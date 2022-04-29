@@ -1,11 +1,4 @@
-interface Pessoa {
-    nome: string;
-    idade: number;
-    rua: string;
-
-    cadastrar();
-}
-
+import {Pessoa} from './interface';
 class Aluno implements Pessoa{
     nome: string;
     idade: number;
